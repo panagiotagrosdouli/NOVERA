@@ -12,4 +12,4 @@ In GitHub, open **Settings → Pages → Build and deployment → Deploy from a 
 
 ## Notes
 
-NOVERA ONE is a concept, not a built or certified humanoid robot. Images are third-party reference imagery, not product photographs. Emotion-aware interaction does not imply real feelings or consciousness. The contact form is demonstrative and does not transmit or store personal data. Obtain suitable imagery rights, domain/trademark clearance, and implement real form handling and privacy materials before commercial launch.
+NOVERA ONE is a concept, not a built or certified humanoid robot. Images are third-party reference imagery, not product photographs. Emotion-aware interaction does not imply real feelings or consciousness. The contact form posts to FormSubmit for email delivery to the project inbox. The inbox owner must confirm the FormSubmit activation email following the first submission before delivery is active. Submissions are processed by this third-party service; publish appropriate privacy information before wider use. Obtain suitable imagery rights, domain/trademark clearance, and implement real form handling and privacy materials before commercial launch.
