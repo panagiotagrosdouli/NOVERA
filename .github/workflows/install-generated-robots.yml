@@ -1,0 +1,32 @@
+name: Install NOVERA generated robot images
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/install-generated-robots.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Extract exact robot imagery from uploaded ZIP
+        run: python scripts/install-generated-images.py
+      - name: Commit generated robot images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/robots/*.webp
+          if git diff --cached --quiet; then
+            echo "Images already installed"
+          else
+            git commit -m "Install ten NOVERA concept robot image assets"
+            git push
+          fi
