@@ -1,0 +1,7 @@
+component,mass_kg,x_mm,y_mm,z_mm
+battery,9,0,-35,180
+drive,8,0,0,160
+frame,7,0,0,520
+compute_sensors,4,0,0,720
+head_display,5,0,0,910
+design_reserve,3,0,0,550
