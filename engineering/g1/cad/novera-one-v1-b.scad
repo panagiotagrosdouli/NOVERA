@@ -3,8 +3,9 @@
 // OpenSCAD: openscad -o novera-one-v1-b.stl novera-one-v1-b.scad
 $fn = 48;
 H = 1050; W = 500; D = 500;
+assert(W == 500 && D == 500 && H == 1050, "Candidate B target envelope changed");
 base_h = 170; deck_z = 90;
-wheel_r = 76; wheel_thick = 42; wheel_x = 191; wheel_y = 0; wheel_z = 86;
+wheel_r = 76; wheel_thick = 42; wheel_x = 191; wheel_y = 0; wheel_z = wheel_r;
 body_w = 272; body_d = 235; body_bottom = 175; body_top = 800;
 head_w = 325; head_d = 145; head_h = 190; head_z = 860;
 module rounded_box(sz,r) {
@@ -27,7 +28,7 @@ module drivetrain() {
   }
   // Schematic stabilizer casters — actual 4-contact support needs analysis.
   for (y=[-173,173]) {
-    color([0.2,0.25,0.29]) translate([0,y,36]) sphere(r=35);
+    color([0.2,0.25,0.29]) translate([0,y,35]) sphere(r=35);
   }
 }
 module torso() {
