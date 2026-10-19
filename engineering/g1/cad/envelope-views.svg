@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420">
+<rect width="1000" height="420" fill="#fbfcff"/>
+<g font-family="Arial,sans-serif" fill="#17304e" text-anchor="middle"><text x="180" y="35" font-size="20">FRONT</text><text x="500" y="35" font-size="20">SIDE</text><text x="820" y="35" font-size="20">TOP</text></g>
+<g fill="#e5edf6" stroke="#285778" stroke-width="3">
+<rect x="118" y="76" width="124" height="245" rx="17"/><rect x="145" y="120" width="70" height="151" rx="13"/><rect x="108" y="272" width="144" height="49" rx="12"/>
+<rect x="443" y="76" width="114" height="245" rx="18"/><rect x="465" y="116" width="70" height="158" rx="13"/><rect x="430" y="272" width="140" height="49" rx="12"/>
+<rect x="747" y="107" width="146" height="146" rx="19"/>
+</g>
+<g stroke="#1784a6" stroke-width="2" fill="none">
+<path d="M85 76 V321 M77 76 H93 M77 321 H93"/>
+<path d="M108 346 H252 M108 338 V354 M252 338 V354"/>
+<path d="M430 346 H570 M430 338 V354 M570 338 V354"/>
+<path d="M921 107 V253 M913 107 H929 M913 253 H929"/>
+<path d="M747 278 H893 M747 270 V286 M893 270 V286"/>
+</g>
+<g font-family="Arial,sans-serif" fill="#184967" font-size="16" text-anchor="middle"><text x="55" y="202" transform="rotate(-90 55 202)">1050 mm</text><text x="180" y="375">500 mm</text><text x="500" y="375">500 mm</text><text x="946" y="182" transform="rotate(-90 946 182)">500 mm</text><text x="820" y="309">500 mm</text></g>
+<g font-family="Arial,sans-serif" fill="#627287" font-size="12" text-anchor="middle"><text x="500" y="404">NOVERA ONE V1 Candidate B · schematic envelopes only · not fabrication drawings</text></g>
+</svg>
