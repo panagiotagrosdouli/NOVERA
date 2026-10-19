@@ -14,3 +14,7 @@ buttons[2].handlers.click();assert.match(els.statement.textContent,/Camera and m
 els.language.handlers.click();assert.equal(document.documentElement.lang,'el');assert.match(els.statement.textContent,/Κάμερα/);assert.equal(buttons[2].pressed,'true');
 buttons[1].handlers.click();assert.match(els.statement.textContent,/αβεβαιότητα/);
 console.log('NOVERA ONE bilingual scripted interaction checks passed.');
+
+const other=readFileSync('other-robots.html','utf8');const homepage=readFileSync('index.html','utf8');
+assert.match(homepage,/href="other-robots\.html"/);assert.match(other,/NOVERA HOME/);assert.match(other,/NOVERA SCOUT/);assert.match(other,/NOVERA FIELD/);assert.match(other,/NOVERA ACCESS/);
+assert.match(other,/Άλλα ρομπότ/);assert.match(other,/No performance, autonomy or safety claims/);
