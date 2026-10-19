@@ -29,3 +29,5 @@ for(const name of ['SILENT GUIDE','MEMORY','QUIET CARE','MICRO-MUSEUM','RESET','
 assert.match(specialized,/filter robot concepts/i);assert.match(specialized,/not built or validated products/);assert.match(specialized,/third-party photographic/);
 assert.match(readFileSync('index.html','utf8'),/href="specialized-robots\.html"/);
 assert.match(readFileSync('other-robots.html','utf8'),/href="specialized-robots\.html"/);
+
+const imagePage=readFileSync('other-robots.html','utf8');for(const name of ['home','scout','field','access','buddy','cargo','med','agri','serve','guard'])assert.ok(imagePage.includes('assets/robots/novera-'+name+'.webp'));
