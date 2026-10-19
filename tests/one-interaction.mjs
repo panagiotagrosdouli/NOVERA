@@ -26,13 +26,13 @@ assert.equal((catalog.match(/https:\/\/images\.unsplash\.com\/photo-/g)||[]).len
 
 const specialized=readFileSync('specialized-robots.html','utf8');
 for(const name of ['SILENT GUIDE','MEMORY','QUIET CARE','MICRO-MUSEUM','RESET','TRANSIT','CALM ROOM','COURTESY','WINDOW','FIELD NOTE','RECEPTION PLUS','KID SAFE','STUDIO BOT','AFTERCARE','ETHOS'])assert.match(specialized,new RegExp('NOVERA '+name));
-assert.match(specialized,/filter robot concepts/i);assert.match(specialized,/not built or validated products/);assert.match(specialized,/third-party photographic/);
+assert.match(specialized,/filter robot concepts/i);assert.match(specialized,/not built or validated products/);assert.match(specialized,/15 unique AI-generated photorealistic/);
 assert.match(readFileSync('index.html','utf8'),/href="specialized-robots\.html"/);
 assert.match(readFileSync('other-robots.html','utf8'),/href="specialized-robots\.html"/);
 
 const imagePage=readFileSync('other-robots.html','utf8');for(const name of ['home','scout','field','access','buddy','cargo','med','agri','serve','guard'])assert.ok(imagePage.includes('assets/robots/novera-'+name+'.webp'));
 
-const uniqueConceptPaths=[...specialized.matchAll(/assets\/robots\/novera-[a-z]+\.webp/g)].map(m=>m[0]);
+const uniqueConceptPaths=[...specialized.matchAll(/"image":"assets\/specialized\/novera-[a-z-]+\.webp"/g)].map(m=>m[0]);
 assert.equal(uniqueConceptPaths.length,15);
 assert.ok(uniqueConceptPaths.every(path=>!path.includes('unsplash')));
-assert.match(specialized,/AI-generated photorealistic concept visuals/);
+assert.match(specialized,/AI-generated photorealistic NOVERA/);
