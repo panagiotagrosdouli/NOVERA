@@ -23,3 +23,9 @@ const catalog=readFileSync('other-robots.html','utf8');
 for(const model of ['HOME','SCOUT','FIELD','ACCESS','BUDDY','CARGO','MED','AGRI','SERVE','GUARD'])assert.match(catalog,new RegExp('NOVERA '+model));
 assert.match(catalog,/const photos=\[/);assert.match(catalog,/loading="lazy"/);assert.match(catalog,/third-party photographs/);
 assert.equal((catalog.match(/https:\/\/images\.unsplash\.com\/photo-/g)||[]).length,10);
+
+const specialized=readFileSync('specialized-robots.html','utf8');
+for(const name of ['SILENT GUIDE','MEMORY','QUIET CARE','MICRO-MUSEUM','RESET','TRANSIT','CALM ROOM','COURTESY','WINDOW','FIELD NOTE','RECEPTION PLUS','KID SAFE','STUDIO BOT','AFTERCARE','ETHOS'])assert.match(specialized,new RegExp('NOVERA '+name));
+assert.match(specialized,/filter robot concepts/i);assert.match(specialized,/not built or validated products/);assert.match(specialized,/third-party photographic/);
+assert.match(readFileSync('index.html','utf8'),/href="specialized-robots\.html"/);
+assert.match(readFileSync('other-robots.html','utf8'),/href="specialized-robots\.html"/);
