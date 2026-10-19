@@ -18,3 +18,8 @@ console.log('NOVERA ONE bilingual scripted interaction checks passed.');
 const other=readFileSync('other-robots.html','utf8');const homepage=readFileSync('index.html','utf8');
 assert.match(homepage,/href="other-robots\.html"/);assert.match(other,/NOVERA HOME/);assert.match(other,/NOVERA SCOUT/);assert.match(other,/NOVERA FIELD/);assert.match(other,/NOVERA ACCESS/);
 assert.match(other,/Άλλα ρομπότ/);assert.match(other,/No performance, autonomy or safety claims/);
+
+const catalog=readFileSync('other-robots.html','utf8');
+for(const model of ['HOME','SCOUT','FIELD','ACCESS','BUDDY','CARGO','MED','AGRI','SERVE','GUARD'])assert.match(catalog,new RegExp('NOVERA '+model));
+assert.match(catalog,/const photos=\[/);assert.match(catalog,/loading="lazy"/);assert.match(catalog,/third-party photographs/);
+assert.equal((catalog.match(/https:\/\/images\.unsplash\.com\/photo-/g)||[]).length,10);
