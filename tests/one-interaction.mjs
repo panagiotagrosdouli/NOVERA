@@ -31,3 +31,8 @@ assert.match(readFileSync('index.html','utf8'),/href="specialized-robots\.html"/
 assert.match(readFileSync('other-robots.html','utf8'),/href="specialized-robots\.html"/);
 
 const imagePage=readFileSync('other-robots.html','utf8');for(const name of ['home','scout','field','access','buddy','cargo','med','agri','serve','guard'])assert.ok(imagePage.includes('assets/robots/novera-'+name+'.webp'));
+
+const uniqueConceptPaths=[...specialized.matchAll(/assets\/robots\/novera-[a-z]+\.webp/g)].map(m=>m[0]);
+assert.equal(uniqueConceptPaths.length,15);
+assert.ok(uniqueConceptPaths.every(path=>!path.includes('unsplash')));
+assert.match(specialized,/AI-generated photorealistic concept visuals/);
