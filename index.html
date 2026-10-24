@@ -35,6 +35,33 @@ footer{border-top:1px solid var(--line);padding:3rem 0}.footer{display:flex;just
 @media(max-width:780px){.wrap{width:calc(100% - 2.4rem)}header .wrap{min-height:74px}.logo{font-size:.98rem;letter-spacing:.14em}nav a:not(.contact-link){display:none}nav .contact-link{padding:10px;font-size:.68rem}.hero{min-height:750px}.hero:before{background:linear-gradient(90deg,#050911ed,#05091166),linear-gradient(0deg,#050911,transparent 50%),url("https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1000&q=80") 61% center/cover}.hero .wrap{padding:155px 0 90px}h1{font-size:clamp(3.5rem,13vw,6rem)}.split,.three,.showcase,.catalog{grid-template-columns:1fr}.showcase .visual{min-height:300px}.cta .wrap{display:block}.cta .btn{margin-top:1.5rem}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}.btn:hover{transform:none}}
 .contact-form{display:grid;gap:1rem;max-width:640px;margin-top:2rem}.contact-form label{font-size:.85rem;color:#d8e8fa;display:grid;gap:.45rem}.contact-form input:not([type=checkbox]),.contact-form textarea{width:100%;padding:1rem;background:#091321;border:1px solid #627f9f;color:#fff;font:inherit;border-radius:3px}.contact-form input:focus-visible,.contact-form textarea:focus-visible{outline:2px solid var(--blue);outline-offset:2px}.contact-form textarea{resize:vertical;min-height:140px}.contact-form .consent{display:flex;gap:.8rem;align-items:start;font-size:.82rem;line-height:1.6;color:var(--muted)}.contact-form .consent input{margin-top:.35rem;flex:none}.contact-form .form-small{font-size:.75rem;color:var(--muted);line-height:1.6}.form-honeypot{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}.contact-form button{width:fit-content}.contact-form a{text-decoration:underline;color:var(--blue)}
+
+/* 2026 visual system: cinematic composition, premium editorial spacing and motion restraint */
+:root{--glow:#a7d3ff}
+body{background-image:radial-gradient(ellipse 55% 26% at 85% 15%,#1b42621e,transparent)}
+header{transition:background .3s,border-color .3s}
+.hero{isolation:isolate}
+.hero h1{text-wrap:balance;text-shadow:0 14px 70px #0007}
+.hero .kicker,.hero .eyebrow{display:inline-flex;align-items:center;gap:14px}
+.hero .kicker:before,.hero .eyebrow:before{content:"";display:inline-block;width:27px;height:1px;background:var(--glow)}
+.hero .actions a,.hero .actions .button{position:relative;overflow:hidden}
+.hero .actions a:focus-visible{outline-offset:5px}
+.section,.content{position:relative}
+.section h2,.content h2{text-wrap:balance}
+.feature,.three article,.pillar{transition:transform .25s,border-color .25s,background .25s}
+.feature:hover,.three article:hover,.pillar:hover{transform:translateY(-4px)}
+.brand,header .logo{transition:opacity .2s}.brand:hover,header .logo:hover{opacity:.78}
+.visual-system-strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#0a1523}
+.visual-system-strip .strip-inner{max-width:1220px;margin:auto;padding:24px 32px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:18px;align-items:center}
+.visual-system-strip span{font-size:.68rem;letter-spacing:.19em;text-transform:uppercase;color:#a7d3ff;font-weight:600}
+.visual-system-strip span:not(:first-child){color:#a8bdd7}
+.featured-statement{padding:clamp(75px,11vw,160px) 0;border-top:1px solid var(--line);position:relative;overflow:hidden;background:linear-gradient(115deg,#0c1c2d,#060b13)}
+.featured-statement:after{content:"";position:absolute;right:-100px;top:-100px;width:min(60vw,700px);height:min(60vw,700px);border:1px solid #9fcfff22;border-radius:50%;box-shadow:0 0 0 70px #9fcfff08,0 0 0 150px #9fcfff05;pointer-events:none}
+.featured-statement .statement-inner{width:min(1100px,calc(100% - 48px));margin:auto;position:relative;z-index:1}
+.featured-statement p{font-size:clamp(2rem,5vw,5.5rem);line-height:1.2;letter-spacing:-.065em;font-weight:400;max-width:900px;color:#e7f2ff;margin:1.5rem 0 0}
+.featured-statement em{font-style:normal;color:#a7d3ff}
+@media(max-width:750px){.visual-system-strip .strip-inner{padding:19px}.visual-system-strip span{font-size:.59rem}.visual-system-strip span:nth-child(4){display:none}.feature:hover,.three article:hover,.pillar:hover{transform:none}}
+@media(prefers-reduced-motion:reduce){header,.feature,.three article,.pillar,.brand,header .logo{transition:none!important}.feature:hover,.three article:hover,.pillar:hover{transform:none}}
 </style>
 </head>
 <body>
@@ -47,7 +74,7 @@ footer{border-top:1px solid var(--line);padding:3rem 0}.footer{display:flex;just
 <p class="lead">A new perspective on humanoid robotics, thoughtful AI and the future of human-machine interaction.</p>
 <div class="actions"><a class="btn primary" href="#concepts">Explore concepts ↗</a><a class="btn" href="#vision">Discover NOVERA</a></div>
 <p class="disclaimer">Independent concept-stage venture. No built, certified or commercially available robot. Hero imagery is third-party visual reference, not NOVERA hardware.</p>
-</div></section>
+</div></section><div class="visual-system-strip" aria-label="NOVERA focus areas"><div class="strip-inner"><span>THE FUTURE IS HUMAN-CENTERED</span><span>HUMAN-FIRST DESIGN</span><span>RESPONSIBLE INTELLIGENCE</span><span>ENGINEERING REALITY</span></div></div>
 <section class="section" id="vision" aria-labelledby="vision-title"><div class="wrap split">
 <span class="kicker">01 / Vision</span>
 <div><h2 id="vision-title">Technology should feel closer to humanity.</h2>
@@ -76,6 +103,6 @@ footer{border-top:1px solid var(--line);padding:3rem 0}.footer{display:flex;just
 <p class="form-small">Sending requires the site owner's FormSubmit inbox activation. The form does not guarantee delivery until it has been tested. Before public launch, a reviewed privacy notice should be published.</p>
 <button class="btn primary" type="submit">Send message ↗</button>
 </form></div></section>
-</main>
+<section class="featured-statement" aria-label="NOVERA statement"><div class="statement-inner"><span class="kicker">NOVERA / OUR PHILOSOPHY</span><p>The next generation of robotics starts with <em>better questions.</em></p></div></section></main>
 <footer><div class="wrap footer"><div><a class="logo" href="./">NOVERA<span>.</span></a><p>© 2026 NOVERA Robotics · Independent concept-stage project.</p></div><div class="footer-links"><a href="one.html">NOVERA ONE concept</a><a href="other-robots.html">Robot concepts</a><a href="specialized-robots.html">Specialized concepts</a><a href="one-interaction-demo.html">Interaction demo</a><a href="https://github.com/panagiotagrosdouli/NOVERA">GitHub ↗</a></div></div></footer>
 </body></html>
