@@ -1,0 +1,290 @@
+{
+  "baseline": "64304d9f045355872728753bcec6f6d73c78a854",
+  "files": [
+    {
+      "path": ".github/workflows/concept-checks.yml",
+      "bytes": 328,
+      "sha256": "9960d9bf16dd67872efac8444af752b528edbe7a7c130d447766705a7f0bcf69"
+    },
+    {
+      "path": ".github/workflows/install-generated-robots.yml",
+      "bytes": 986,
+      "sha256": "9e6f21fa9d4d7a9ddd6a1ad768568af13de237a70c9813b2b8a02c25fef69836"
+    },
+    {
+      "path": ".github/workflows/install-specialized-images.yml",
+      "bytes": 939,
+      "sha256": "7eb0000ee214d2b11c652dee0042f44e51d906507bbab8f50e5704c350e4c82e"
+    },
+    {
+      "path": "NOVERA-10-ROBOTS-IMAGES-NEW.zip",
+      "bytes": 727555,
+      "sha256": "7eea43844cf6731d85a75957aae0e78b4e07b85e8e2c88b284c2d4b48d48cc40"
+    },
+    {
+      "path": "NOVERA-SPECIALIZED-15-UNIQUE-IMAGES.zip",
+      "bytes": 1755564,
+      "sha256": "3c7472abeab070df178cdc3784717b6bc53a1ecdeeecc2ee1ac93b82f1eb4ce0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1178,
+      "sha256": "fb7bae947a6f1294b973918c12d140fe88423e69e729ae625e87054401029b90"
+    },
+    {
+      "path": "assets/robots/novera-access.webp",
+      "bytes": 54372,
+      "sha256": "ad35953592ca1a3d0e81ae913219bf3bf2f59662280fc49a3c2eab4147c2944b"
+    },
+    {
+      "path": "assets/robots/novera-agri.webp",
+      "bytes": 93654,
+      "sha256": "9093bd326affac32b416708f6ee74d1bdbbf9d92b6a96681f489fc28b95d9865"
+    },
+    {
+      "path": "assets/robots/novera-buddy.webp",
+      "bytes": 50530,
+      "sha256": "3e5031ad8e347611497c629d4cef8a85d9b8f399d866f17e86473e40c92fdd96"
+    },
+    {
+      "path": "assets/robots/novera-cargo.webp",
+      "bytes": 66984,
+      "sha256": "8c4f3ec8b1b69cfdfb0fe5f36f6377e15e614f417425ba87aab7d5494191b027"
+    },
+    {
+      "path": "assets/robots/novera-field.webp",
+      "bytes": 116526,
+      "sha256": "e56c8ec39ddc830f7df6f15e25d3f79095ad1dd4404c917b8faccd070252872e"
+    },
+    {
+      "path": "assets/robots/novera-guard.webp",
+      "bytes": 82740,
+      "sha256": "8aaee3dfee4bd8889db9883a5e2473d3f1c9384bb4c1790a4a045cd80ec840d8"
+    },
+    {
+      "path": "assets/robots/novera-home.webp",
+      "bytes": 76418,
+      "sha256": "0c7fa49afe3430c359aa6bf5e7795ba4a0c43bd0fbd549ea377da05f5928aefc"
+    },
+    {
+      "path": "assets/robots/novera-med.webp",
+      "bytes": 45948,
+      "sha256": "cc99f5109ceeedfbe2b7cad250fafa84c9bdbaa1aa461bd2e71870a64c03babc"
+    },
+    {
+      "path": "assets/robots/novera-scout.webp",
+      "bytes": 67842,
+      "sha256": "5891b73c794b9cf8080a5e0e6c3c185ff1dd055ddc55c79cc5a2024703e7b125"
+    },
+    {
+      "path": "assets/robots/novera-serve.webp",
+      "bytes": 70890,
+      "sha256": "a7c3e104c4dc89b3e55c3caeb3473c43e47b581f040bfcd7591ad51f1dabf85a"
+    },
+    {
+      "path": "assets/specialized/novera-aftercare.webp",
+      "bytes": 97364,
+      "sha256": "e9e6ba714af2f8d2d7de42c4a4ccf61b719b22706dac622f0fa98c4f392726b3"
+    },
+    {
+      "path": "assets/specialized/novera-calm-room.webp",
+      "bytes": 143122,
+      "sha256": "f870efb104bb4163294ef2df6f71a88823aa866ede715e17dbc19bba3be2a8fb"
+    },
+    {
+      "path": "assets/specialized/novera-courtesy.webp",
+      "bytes": 105446,
+      "sha256": "687aab9952746b68db0ef60056e7144ac2568b97361650ee04f8086a415dc4bd"
+    },
+    {
+      "path": "assets/specialized/novera-ethos.webp",
+      "bytes": 124510,
+      "sha256": "030b7ae51d18ba42a802af22a1393208c847dc09d55bd389080c040117991f14"
+    },
+    {
+      "path": "assets/specialized/novera-field-note.webp",
+      "bytes": 165678,
+      "sha256": "ed8a3747c65877272f006772ca459560f2627c0ebe8c4c3f3d6aea8b0da6fe26"
+    },
+    {
+      "path": "assets/specialized/novera-kid-safe.webp",
+      "bytes": 117190,
+      "sha256": "ec57c90efc87c99a6065b6902a6efaada62508351bb5a36292ad1ccbf13edddb"
+    },
+    {
+      "path": "assets/specialized/novera-memory.webp",
+      "bytes": 127530,
+      "sha256": "175bbcea1bf0caab4449c65f2f0cc99f43604ecd4f94df56af8a8ac22d463643"
+    },
+    {
+      "path": "assets/specialized/novera-micro-museum.webp",
+      "bytes": 106856,
+      "sha256": "735adaf3ba1599aa86c036f6ea68f36fca47b1a951d5eed52d2765ec0736e398"
+    },
+    {
+      "path": "assets/specialized/novera-quiet-care.webp",
+      "bytes": 69992,
+      "sha256": "125dbb9b0dab9b826cc7519fb5bed7a8e92c4aec9c7b21c20331f1888d843d09"
+    },
+    {
+      "path": "assets/specialized/novera-reception-plus.webp",
+      "bytes": 113078,
+      "sha256": "e4200aaeb4d22174a645224fc3d468af25cefe3b01adad6fa1bf4b375f8701af"
+    },
+    {
+      "path": "assets/specialized/novera-reset.webp",
+      "bytes": 146120,
+      "sha256": "c148c0d09ea80f966ca3cbaa3c3e6bf3e35d25f7340d589896789be7bb5b3cd8"
+    },
+    {
+      "path": "assets/specialized/novera-silent-guide.webp",
+      "bytes": 95092,
+      "sha256": "bccd5e7ea13a086f1d393f528288535e5dc4b73973d03515b1aa39d7c7a07186"
+    },
+    {
+      "path": "assets/specialized/novera-studio-bot.webp",
+      "bytes": 123300,
+      "sha256": "cb3c7061cdae3a70eae117c57978024654f7bca7558c888b85c28f999151345e"
+    },
+    {
+      "path": "assets/specialized/novera-transit.webp",
+      "bytes": 120148,
+      "sha256": "6257e0f0a7bc61a0b23fcf0f59fd325c1e00b1caac111fb354c039a522548097"
+    },
+    {
+      "path": "assets/specialized/novera-window.webp",
+      "bytes": 97784,
+      "sha256": "3d74a4036ee1eee6014bf59b1729b56c2c334cd14868440cc90a2928d6ecdccf"
+    },
+    {
+      "path": "docs/robot-image-handoff.md",
+      "bytes": 940,
+      "sha256": "b35fb54722d648829179c1b6d71278edd96aa25484902120714cbec1e4dd2c28"
+    },
+    {
+      "path": "engineering/README.md",
+      "bytes": 1329,
+      "sha256": "b2052c672cb400396c2203b7cc3f23e6cb978ccc32949e9f3830e36e2b152e1b"
+    },
+    {
+      "path": "engineering/architecture.md",
+      "bytes": 1411,
+      "sha256": "7714ee6e4ff2263433b71ebe9445c53c5009235a34cbb67465297d1d06226136"
+    },
+    {
+      "path": "engineering/components.md",
+      "bytes": 1190,
+      "sha256": "9d6041c04a8381bb2240ffc1fbeab476d1df9f039062d9be909d13afe4a02a73"
+    },
+    {
+      "path": "engineering/g1/README.md",
+      "bytes": 1026,
+      "sha256": "6bbc4e20d478ecf81e32d2c4f79d0d24e69652825fe2625fc9e4389bf7024a18"
+    },
+    {
+      "path": "engineering/g1/cad/README.md",
+      "bytes": 1685,
+      "sha256": "eae68a99010d1b64378e71c5d8fa20abf1f3573d8fe59761a9a7c9aecdf35251"
+    },
+    {
+      "path": "engineering/g1/cad/check_geometry.py",
+      "bytes": 967,
+      "sha256": "c9095fa6451ae114d406dbeb612e43c75c97a395bf52f887b9e2444e8d77c596"
+    },
+    {
+      "path": "engineering/g1/cad/envelope-views.svg",
+      "bytes": 1654,
+      "sha256": "db9ed32829d542d58c975c3e6d77a06cd26bc97e1342203d0b31dc47eb0b80f1"
+    },
+    {
+      "path": "engineering/g1/cad/geometry-review.md",
+      "bytes": 2300,
+      "sha256": "b92d74c8395a0a2822b5a0c25afbd00c30f04050abb0f359cb76957e126e2d21"
+    },
+    {
+      "path": "engineering/g1/cad/mass-components.csv",
+      "bytes": 159,
+      "sha256": "b55fa3d24fd5d6cd21e19df5a23d8553ee3a72a50de12f8dfb35f9db2e0f2c42"
+    },
+    {
+      "path": "engineering/g1/cad/novera-one-v1-b.scad",
+      "bytes": 2015,
+      "sha256": "4a4e881d4fd8e8b564ba10bba7fc001d1c2354bf41bcd5d9a8bfe352a16dcb13"
+    },
+    {
+      "path": "engineering/g1/envelopes.md",
+      "bytes": 2628,
+      "sha256": "3c8ec5ffe934d65c536a4eb89aba6891fee676df248d64c97404b6a70fe69a58"
+    },
+    {
+      "path": "engineering/g1/mass-stability.md",
+      "bytes": 1916,
+      "sha256": "725b66cded67d30b43424cabf9be51b7dacad9fce8df1a652ebd53857b45a8a0"
+    },
+    {
+      "path": "engineering/g1/power.md",
+      "bytes": 1494,
+      "sha256": "6b6007d78e65c5a73bc0819e142e9e0b71c2565b5b051bf7ab4c3a1ecc4c93af"
+    },
+    {
+      "path": "engineering/g1/trade-study.md",
+      "bytes": 1364,
+      "sha256": "4fafe03836cdce242cca341062ccf08f50d19ede3e4f465db4889cb08d6926e2"
+    },
+    {
+      "path": "engineering/requirements.md",
+      "bytes": 1790,
+      "sha256": "72d52b9eb3c4d1e44629be0a6ffaedae8273931b073d77a839b4f07117cc7c75"
+    },
+    {
+      "path": "engineering/roadmap.md",
+      "bytes": 964,
+      "sha256": "d3c5bc0457b3dda22875108495529ee84c9c81cb6ca894253747482e7a4b757d"
+    },
+    {
+      "path": "engineering/verification.md",
+      "bytes": 1313,
+      "sha256": "250ed1539092c196e019fa6146b39e21445a6a2fda986a4dbdf83ade1e880653"
+    },
+    {
+      "path": "index.html",
+      "bytes": 27171,
+      "sha256": "6cc45c866698650762acf44ce46ccef1c12b07407a8c17c98f22f510ea9bd17d"
+    },
+    {
+      "path": "one-interaction-demo.html",
+      "bytes": 6961,
+      "sha256": "67ec2176a4f73b5018e867e4a47bcadd707acbc93654f6ecd02d85c2e5d2511e"
+    },
+    {
+      "path": "one.html",
+      "bytes": 13765,
+      "sha256": "5ca73db4d1a63e6d439fd91d4e62be45619d6f9fc842d587dd535159e45a6172"
+    },
+    {
+      "path": "other-robots.html",
+      "bytes": 11176,
+      "sha256": "f350b526e1915171f08f0f713b043108ec56d566d5b096d1537643c63f715423"
+    },
+    {
+      "path": "scripts/install-generated-images.py",
+      "bytes": 1014,
+      "sha256": "d967802f4ee85f3d3849d540a708ead5fe59290563046a76a47d8569cc1ddd43"
+    },
+    {
+      "path": "scripts/install-specialized-images.py",
+      "bytes": 822,
+      "sha256": "1669b4892b8ae46afe530ce21f313e32c183a0c562ccbb3128fc70e78451274a"
+    },
+    {
+      "path": "specialized-robots.html",
+      "bytes": 13030,
+      "sha256": "b15fabc295b9db9c4530a75255bd81ca104c5cb73be8bb858cd870e1b94a0928"
+    },
+    {
+      "path": "tests/one-interaction.mjs",
+      "bytes": 3651,
+      "sha256": "d90d1db38a3c19720c43bf9a469785591b45fc17c134b2d3c6abe8c6429f9d17"
+    }
+  ]
+}
