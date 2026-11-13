@@ -1,0 +1,22 @@
+{
+  "method": "LibreOffice headless recalculation, then openpyxl data-only read",
+  "formula_errors": [],
+  "boundary": "PLANNING_ASSUMPTIONS_NOT_ACTUALS",
+  "results": {
+    "Low": {
+      "closing_cash_month_36_EUR": -32636.2,
+      "additional_funding_with_reserve_EUR": 37136.2,
+      "months_before_negative_cash": 15
+    },
+    "Base": {
+      "closing_cash_month_36_EUR": -103902.1,
+      "additional_funding_with_reserve_EUR": 115512.1,
+      "months_before_negative_cash": 10
+    },
+    "High": {
+      "closing_cash_month_36_EUR": -217528.48,
+      "additional_funding_with_reserve_EUR": 269128.48,
+      "months_before_negative_cash": 9
+    }
+  }
+}

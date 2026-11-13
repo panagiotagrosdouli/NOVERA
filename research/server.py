@@ -32,4 +32,4 @@ def tick():
   with lock:robot.step(.1)
   time.sleep(.1)
 if __name__=='__main__':
- os.chdir(Path(__file__).resolve().parents[1]);threading.Thread(target=tick,daemon=True).start();print('Local twin: http://127.0.0.1:8765/digital-twin.html',flush=True);ThreadingHTTPServer(('127.0.0.1',8765),Handler).serve_forever()
+ os.chdir(Path(__file__).resolve().parents[1]);threading.Thread(target=tick,daemon=True).start();print('Local twin: http://127.0.0.1:8765/digital-twin.html',flush=True);ThreadingHTTPServer(('127.0.0.1',int(os.environ.get('NOVERA_PORT','8765'))),Handler).serve_forever()

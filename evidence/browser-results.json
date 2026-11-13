@@ -1,0 +1,255 @@
+{
+  "routes": [
+    {
+      "venture": "NOVERA",
+      "page": "about.html",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "careers.html",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "contact.html",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "digital-twin.html",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "index.html",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "investors.html",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "one-historical-concept.html",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "one-interaction-demo.html",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "one.html",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "other-robots.html",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "privacy.html",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "research-hub.html",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "research.html",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "safety.html",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "specialized-robots.html",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "technology.html",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "terms.html",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "about.html",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "careers.html",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "contact.html",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "digital-twin.html",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "index.html",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "investors.html",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "one-historical-concept.html",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "one-interaction-demo.html",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "one.html",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "other-robots.html",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "privacy.html",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "research-hub.html",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "research.html",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "safety.html",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "specialized-robots.html",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "technology.html",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false
+    },
+    {
+      "venture": "NOVERA",
+      "page": "terms.html",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false
+    }
+  ],
+  "pageErrors": [],
+  "flows": [
+    "EN/EL toggle",
+    "mission consent interlock",
+    "live local telemetry",
+    "simulated stop",
+    "cross-origin write rejected",
+    "scripted handoff",
+    "LABS intake/evidence/export/erase",
+    "actual fixture sensitivity"
+  ],
+  "overflowFailures": [],
+  "scope": "Local browser evidence only, not deployed revision, physical safety, complete localization or form delivery"
+}
