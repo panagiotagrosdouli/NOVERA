@@ -5,9 +5,9 @@ Parametric **OpenSCAD source:** [novera-one-v1-b.scad](novera-one-v1-b.scad). Th
 ## Geometry (mm)
 - Maximum proposed envelope: **500 W × 500 D × 1050 H**
 - Chassis: rounded 468 × 468 × 170
-- Drive wheel placeholder: radius 76, thickness 42, centers at X ±191, Y 0, Z 86
+- Drive wheel placeholder: radius 76, thickness 42, centers at X ±191, Y 0, Z 76
 - Body: 272 W × 235 D, spanning nominally Z 175–800
-- Head: 325 W × 145 D × 190, spanning Z 860–1050
+- Head: 325 W × 145 D × 190, spanning Z 760–1050
 - Internal battery, electronics, and display shapes are packaging placeholders.
 
 **Bounding-box warning:** Minkowski rounding and wheel geometry are visual envelope approximations. Display and other parts are not fastened; nominal Z gaps are intentional. The resulting mesh is a multi-part concept visualization, not an assembled watertight solid suitable for additive manufacture. Casters and wheel contacts are not mechanically verified.
@@ -17,7 +17,7 @@ Install OpenSCAD and run:
 ```bash
 openscad -o novera-one-v1-b.stl novera-one-v1-b.scad
 ```
-STL is for inspection only, not fabrication. You can edit W, D, H and subsystem dimensions in the source; **H is currently a named target, not a derived constraint**.
+STL is for inspection only, not fabrication. You can edit W, D, H and subsystem dimensions in the source; H is a fixed Candidate B target, not a scalable manufacturing constraint.
 
 ## Remaining G1 work
 1. Real wheel contact coordinates and stable caster geometry.

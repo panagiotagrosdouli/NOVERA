@@ -1,0 +1,114 @@
+{
+  "tool": "axe-core 4.10.3",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21aa"
+  ],
+  "date": "2026-11-13",
+  "scope": "Automated subset only; incomplete findings and manual usability review remain",
+  "pages": [
+    {
+      "venture": "NOVERA",
+      "page": "about.html",
+      "violations": [],
+      "incomplete": 0
+    },
+    {
+      "venture": "NOVERA",
+      "page": "careers.html",
+      "violations": [],
+      "incomplete": 0
+    },
+    {
+      "venture": "NOVERA",
+      "page": "contact.html",
+      "violations": [],
+      "incomplete": 0
+    },
+    {
+      "venture": "NOVERA",
+      "page": "digital-twin.html",
+      "violations": [],
+      "incomplete": 1
+    },
+    {
+      "venture": "NOVERA",
+      "page": "index.html",
+      "violations": [],
+      "incomplete": 2
+    },
+    {
+      "venture": "NOVERA",
+      "page": "investors.html",
+      "violations": [],
+      "incomplete": 0
+    },
+    {
+      "venture": "NOVERA",
+      "page": "one-historical-concept.html",
+      "violations": [],
+      "incomplete": 1
+    },
+    {
+      "venture": "NOVERA",
+      "page": "one-interaction-demo.html",
+      "violations": [],
+      "incomplete": 1
+    },
+    {
+      "venture": "NOVERA",
+      "page": "one.html",
+      "violations": [],
+      "incomplete": 0
+    },
+    {
+      "venture": "NOVERA",
+      "page": "other-robots.html",
+      "violations": [],
+      "incomplete": 0
+    },
+    {
+      "venture": "NOVERA",
+      "page": "privacy.html",
+      "violations": [],
+      "incomplete": 0
+    },
+    {
+      "venture": "NOVERA",
+      "page": "research-hub.html",
+      "violations": [],
+      "incomplete": 0
+    },
+    {
+      "venture": "NOVERA",
+      "page": "research.html",
+      "violations": [],
+      "incomplete": 0
+    },
+    {
+      "venture": "NOVERA",
+      "page": "safety.html",
+      "violations": [],
+      "incomplete": 0
+    },
+    {
+      "venture": "NOVERA",
+      "page": "specialized-robots.html",
+      "violations": [],
+      "incomplete": 1
+    },
+    {
+      "venture": "NOVERA",
+      "page": "technology.html",
+      "violations": [],
+      "incomplete": 0
+    },
+    {
+      "venture": "NOVERA",
+      "page": "terms.html",
+      "violations": [],
+      "incomplete": 0
+    }
+  ]
+}

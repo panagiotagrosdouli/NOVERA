@@ -1,0 +1,24 @@
+RUN python3 tests/check-integrity.py
+17 HTML pages, SVG XML and engineering JSON checked
+RUN node tests/one-interaction.mjs
+NOVERA ONE bilingual scripted interaction checks passed.
+RUN python3 engineering/g1/cad/check_geometry.py
+Mass estimate 36.0 kg; CG=(0.0,-8.8,433.9) mm
+Nominal 2D contact polygon inclusion margin (dimensionless)=0.949
+PASS: conceptual arithmetic only; NOT a dynamic stability or compliance validation.
+RUN python3 -m unittest discover -s tests -p test_*.py -v
+test_consent_withdrawal_stops (test_supervisor.SupervisorTests.test_consent_withdrawal_stops) ... ok
+test_estop_latched (test_supervisor.SupervisorTests.test_estop_latched) ... ok
+test_fault_low_energy_and_timeout (test_supervisor.SupervisorTests.test_fault_low_energy_and_timeout) ... ok
+test_hri_never_commands_motion (test_supervisor.SupervisorTests.test_hri_never_commands_motion) ... ok
+test_invalid_dt (test_supervisor.SupervisorTests.test_invalid_dt) ... ok
+test_obstacle_hold (test_supervisor.SupervisorTests.test_obstacle_hold) ... ok
+test_rejects_unapproved_and_no_consent (test_supervisor.SupervisorTests.test_rejects_unapproved_and_no_consent) ... ok
+test_sensor_and_dimensions (test_supervisor.SupervisorTests.test_sensor_and_dimensions) ... ok
+test_waypoint_arrives (test_supervisor.SupervisorTests.test_waypoint_arrives) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.006s
+
+OK
+FAILED COMMANDS: []
