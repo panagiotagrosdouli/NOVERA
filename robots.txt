@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://panagiotagrosdouli.github.io/NOVERA/sitemap.xml
