@@ -6,3 +6,122 @@ body.venture-veltaro{--brand-accent:#dfc398;background:#10151d}.venture-veltaro 
 .venture-novera{--blue:#7be0ca;--glow:#7be0ca}.venture-novera .btn.primary{background:#7be0ca;border-color:#7be0ca}.venture-novera .btn{border-color:#7be0ca}
 
 .corporate-header,.startup-footer{width:100%!important;max-width:none!important}.corporate-nav a{text-decoration:none}
+
+
+/* NOVERA brand polish — 2026-11-16.
+   Visual refinements only: preserve existing page structure, claims and images.
+   Scoped to NOVERA; no effect on other ventures using corporate.css. */
+body.venture-novera {
+  --accent:#25d4dd;
+  --brand-accent:#25d4dd;
+  --blue:#25d4dd;
+  --glow:#25d4dd;
+  --line:#2b4152;
+  color:#eef5f8;
+}
+body.venture-novera .corporate-header {
+  background:#081724!important;
+  border-bottom:1px solid #345064!important;
+}
+body.venture-novera .corporate-header .corporate-inner {min-height:86px}
+body.venture-novera .corporate-logo img {width:220px;height:54px}
+body.venture-novera .corporate-nav a,
+body.venture-novera .corporate-nav summary {color:#e6f0f4!important}
+body.venture-novera .corporate-nav a:hover,
+body.venture-novera .corporate-nav summary:hover {color:#63e6e9!important}
+body.venture-novera .corporate-nav .primary-link {
+  border-color:#578795;
+  border-radius:5px;
+  font-weight:600!important;
+}
+body.venture-novera .corporate-nav .primary-link:hover {
+  background:#15313e;
+  border-color:#25d4dd;
+}
+body.venture-novera .corporate-nav .dropdown {
+  background:#0b2230;
+  border:1px solid #385568;
+  border-radius:8px;
+}
+body.venture-novera .corporate-nav button {
+  border-color:#507b89;
+  border-radius:5px;
+}
+body.venture-novera .startup-hero .wrap {gap:clamp(32px,4.5vw,72px)}
+body.venture-novera .startup-hero h1 {
+  font-weight:500!important;
+  letter-spacing:-.056em!important;
+  max-width:690px;
+}
+body.venture-novera .startup-hero .hero-copy>p {
+  color:#d0dfe5;
+  max-width:600px;
+}
+body.venture-novera .startup-hero .hero-copy .hero-note {color:#adc4ce}
+body.venture-novera .hero-art {
+  border:1px solid #3a5568;
+  border-radius:10px;
+  box-shadow:0 25px 75px #0004;
+}
+body.venture-novera .hero-art figcaption {background:#061521eb}
+body.venture-novera .hero-art .art-index {background:#071c28ed}
+body.venture-novera .btn {
+  border-radius:5px;
+  border-color:#25d4dd;
+  transition:background .2s ease,border-color .2s ease,color .2s ease,transform .2s ease;
+}
+body.venture-novera .btn.primary {
+  color:#041924;
+  background:#25d4dd;
+  border-color:#25d4dd;
+}
+body.venture-novera .btn.primary:hover {
+  color:#041924;
+  background:#78eef0;
+  border-color:#78eef0;
+}
+body.venture-novera .btn:not(.primary):hover {
+  color:#eaffff;
+  background:#133444;
+  border-color:#7aedef;
+}
+body.venture-novera .startup-card {
+  border:1px solid #354c5e;
+  background:#0c202c;
+  border-radius:9px;
+}
+body.venture-novera .startup-card h3 {color:#f2f8fa}
+body.venture-novera .startup-card p {color:#bdcfd7}
+body.venture-novera .startup-card a {color:#75e8e8}
+body.venture-novera .status-pill {
+  color:#9cecee;
+  border:1px solid #436d79;
+  background:#0a2631;
+}
+body.venture-novera .visual-system-strip {
+  background:#091a27;
+  border-color:#2b4557;
+}
+body.venture-novera .visual-system-strip span:first-child {color:#73e6e8}
+body.venture-novera .milestone-row {border-color:#354b59}
+body.venture-novera .startup-footer {
+  background:#081724;
+  border-color:#31495a;
+}
+body.venture-novera .startup-footer img {width:190px;height:auto}
+body.venture-novera .startup-footer a:hover {color:#75e8e8}
+body.venture-novera :is(a,button,summary,input,textarea,select):focus-visible {
+  outline:3px solid #83f3f4;
+  outline-offset:4px;
+}
+@media (max-width:850px) {
+  body.venture-novera .corporate-header .corporate-inner {min-height:76px}
+  body.venture-novera .corporate-logo img {width:160px;height:42px}
+  body.venture-novera .startup-hero .wrap {gap:30px}
+  body.venture-novera .hero-art {border-radius:8px}
+  body.venture-novera .startup-footer img {width:176px}
+}
+@media (prefers-reduced-motion:reduce) {
+  body.venture-novera .btn {transition:none}
+}
+
